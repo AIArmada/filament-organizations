@@ -17,11 +17,3 @@ $panel->plugins([
     FilamentOrganizationsPlugin::make(),
 ]);
 ```
-
-## Publish configuration (optional)
-
-```bash
-php artisan vendor:publish --tag=filament-organizations-config
-```
-
-This creates `config/filament-organizations.php`.
